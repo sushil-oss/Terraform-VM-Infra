@@ -29,12 +29,12 @@ nics = {
     name                          = "demo-nic"
     location                      = "centralindia"
     resource_group_name           = "demo-rg"
-   # subnet_id                     = "/subscriptions/99a2d563-027d-4106-9794-b39cdcc42ba6/resourceGroups/demo-rg/providers/Microsoft.Network/virtualNetworks/demo-vnet/subnets/demo-subnet"
+   # subnet_id                     = "/subscriptions/6c750392-d85d-41e6-a2be-4dc4ddc9d11d/resourceGroups/demo-rg/providers/Microsoft.Network/virtualNetworks/demo-vnet/subnets/demo-subnet"
     private_ip_address_allocation = "Dynamic"
 
     ip_configuration = {
       name                          = "ipconfig1"
-      subnet_id                     = "/subscriptions/99a2d563-027d-4106-9794-b39cdcc42ba6/resourceGroups/demo-rg/providers/Microsoft.Network/virtualNetworks/demo-vnet/subnets/demo-subnet"
+      subnet_id                     = "/subscriptions/6c750392-d85d-41e6-a2be-4dc4ddc9d11d/resourceGroups/demo-rg/providers/Microsoft.Network/virtualNetworks/demo-vnet/subnets/demo-subnet"
       private_ip_address_allocation = "Dynamic"
     }
   }
@@ -52,7 +52,7 @@ vms = {
     admin_password = "AzureUser@123"
     disable_password_authentication = false
 
-    network_interface_id = "/subscriptions/99a2d563-027d-4106-9794-b39cdcc42ba6/resourceGroups/demo-rg/providers/Microsoft.Network/networkInterfaces/demo-nic"
+    network_interface_id = "/subscriptions/6c750392-d85d-41e6-a2be-4dc4ddc9d11d/resourceGroups/demo-rg/providers/Microsoft.Network/networkInterfaces/demo-nic"
 
     os_disk = {
       name                 = "demo-os-disk"
